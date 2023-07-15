@@ -11,7 +11,7 @@ module.exports = {
       "secondary" : "#0e7490",
       "accent" : "#8c9eff",
       "neutral" : "rgb(7 89 133)",
-      "sky" : "rgb(125 211 252)"
+      "sky" : "rgb(186 230 253)"
     },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
