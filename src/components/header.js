@@ -1,4 +1,4 @@
-import SearchBtn from "./ui/searchBtn"
+import LinkBtn from "./ui/LinkBtn"
 import Link from "next/link"
 
 export default function Header() {
@@ -7,7 +7,16 @@ export default function Header() {
       <h1 className="text-xl font-bold text-primary cursor-pointer hover:text-sky">
         <Link href="/">Rent Review</Link>
       </h1>
-      <SearchBtn />
+      <div className="flex gap-5">
+        <LinkBtn 
+          path="/login"
+          name="Login"
+        />
+        <LinkBtn 
+          path="/search"
+          name="Search"
+        />
+      </div>
     </header>
   )
 }
