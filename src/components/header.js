@@ -1,3 +1,5 @@
+"use client"
+
 import LinkBtn from "./ui/LinkBtn"
 import Link from "next/link"
 
@@ -9,12 +11,12 @@ export default function Header() {
       </h1>
       <div className="flex gap-5">
         <LinkBtn 
-          path="/login"
-          name="Login"
-        />
-        <LinkBtn 
           path="/search"
           name="Search"
+        />
+        <LinkBtn 
+          path="/login"
+          name="Login"
         />
       </div>
     </header>
