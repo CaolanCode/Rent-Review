@@ -27,7 +27,14 @@ export default function LoginForm() {
             name="Cancel"
           />
         </div>
-        <p className="text-white">Don&#39;t have an account&#63; <Link href={"/signup"} className="underline decoration-2 text-primary" >Sign up</Link></p>
+        <p 
+          className="text-white">Don&#39;t have an account&#63;&nbsp;  
+          <Link 
+            href={"/signup"} 
+            className="underline decoration-2 text-primary" >
+            Sign up
+          </Link>
+        </p>
       </form>
   )
 }

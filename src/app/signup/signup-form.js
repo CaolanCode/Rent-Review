@@ -38,7 +38,7 @@ export default function SignupForm() {
         />
       </div>
       <p 
-        className="text-white">Already have an account&#63; 
+        className="text-white">Already have an account&#63;&nbsp; 
         <Link 
           href={"/login"} 
           className="underline decoration-2 text-primary" >
