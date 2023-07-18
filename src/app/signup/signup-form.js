@@ -6,7 +6,6 @@ import Link from "next/link"
 export default function SignupForm() {
   return (
     <form action="" className="flex flex-col gap-4 items-center w-64">
-      <h1 className="text-white font-bold text-2xl pb-2">Sign Up</h1>
       <input 
         type="text" 
         placeholder="Username" 

@@ -6,7 +6,6 @@ import Link from "next/link"
 export default function LoginForm() {
   return (
       <form action="" className="flex flex-col gap-4 items-center w-64">
-        <h1 className="text-white font-bold text-2xl pb-2">Login</h1>
         <input 
           type="text" 
           placeholder="Email" 
