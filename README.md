@@ -1,7 +1,13 @@
 # Rent Review
 - A community for potential tenents to view reviews on a property from a previous tenent
 
-## Getting Started
+## Tech Stack
+- NextJS
+- React
+- Tailwind CSS
+- Hosted on Vercel
+
+## Contributors Instructions 
 
 First, run the development server:
 
