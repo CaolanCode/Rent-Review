@@ -1,5 +1,5 @@
 interface ButtonProps {
-  typeValue: "button" | "reset" | "submit"
+  typeValue: "reset" | "submit"
   name: string
 }
 
