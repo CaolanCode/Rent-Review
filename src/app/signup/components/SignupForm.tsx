@@ -1,7 +1,6 @@
 "use client"
 
-import Button from "@/components/ui/Button"
-import Link from "next/link"
+import Button from "@/app/components/ui/Button"
 
 export default function SignupForm() {
   return (
@@ -22,34 +21,26 @@ export default function SignupForm() {
         type="password" 
         placeholder="Password" 
         className="px-4 py-1 rounded-lg focus:outline-none w-full"
-        minLength="8"
+        minLength={8}
         required
       />
       <input 
         type="password" 
         placeholder="Confirm Password" 
         className="px-4 py-1 rounded-lg focus:outline-none w-full"
-        minLength="8"
+        minLength={8}
         required
       />
       <div className="flex items-center gap-8">
         <Button 
-          type="submit"
+          typeValue="submit"
           name="Create"
         />
         <Button 
-          type="reset"
+          typeValue="reset"
           name="Cancel"
         />
       </div>
-      <p 
-        className="text-white">Already have an account&#63;&nbsp; 
-        <Link 
-          href={"/login"} 
-          className="underline decoration-2 text-primary" >
-            Login
-        </Link>
-      </p>
     </form>
   )
 }
