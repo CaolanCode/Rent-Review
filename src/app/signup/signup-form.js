@@ -10,21 +10,27 @@ export default function SignupForm() {
         type="text" 
         placeholder="Username" 
         className="px-4 py-1 rounded-lg focus:outline-none w-full" 
+        required
       />
       <input 
         type="text" 
         placeholder="Email" 
         className="px-4 py-1 rounded-lg focus:outline-none w-full" 
+        required
       />
       <input 
         type="password" 
         placeholder="Password" 
         className="px-4 py-1 rounded-lg focus:outline-none w-full"
+        minLength="8"
+        required
       />
       <input 
         type="password" 
-        placeholder="Password" 
+        placeholder="Confirm Password" 
         className="px-4 py-1 rounded-lg focus:outline-none w-full"
+        minLength="8"
+        required
       />
       <div className="flex items-center gap-8">
         <Button 
