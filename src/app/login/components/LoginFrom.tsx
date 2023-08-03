@@ -1,6 +1,6 @@
 "use client"
 
-import Button from "@/app/components/ui/Button"
+import FormButtons from "@/app/components/FormButtons"
 
 export default function LoginForm() {
   return (
@@ -15,16 +15,7 @@ export default function LoginForm() {
         placeholder="Password" 
         className="px-4 py-1 rounded-lg w-full"
       />
-      <div className="flex items-center gap-8">
-        <Button 
-          type="submit"
-          name="Login"
-        />
-        <Button 
-          type="reset"
-          name="Cancel"
-        />
-      </div>
+      <FormButtons name="Login" />
     </form>
   )
 }

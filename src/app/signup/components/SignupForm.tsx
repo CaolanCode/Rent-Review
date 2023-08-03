@@ -1,6 +1,6 @@
 "use client"
 
-import Button from "@/app/components/ui/Button"
+import FormButtons from "@/app/components/FormButtons"
 
 export default function SignupForm() {
   return (
@@ -31,16 +31,7 @@ export default function SignupForm() {
         minLength={8}
         required
       />
-      <div className="flex items-center gap-8">
-        <Button 
-          typeValue="submit"
-          name="Create"
-        />
-        <Button 
-          typeValue="reset"
-          name="Cancel"
-        />
-      </div>
+      <FormButtons name="Create" />
     </form>
   )
 }
