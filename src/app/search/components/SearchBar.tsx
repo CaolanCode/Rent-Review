@@ -1,6 +1,6 @@
 "use client"
 
-export default function SearchInput() {
+export default function SearchBar() {
   return (
     <input 
       type="text" 
