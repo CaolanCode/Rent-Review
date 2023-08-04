@@ -12,7 +12,8 @@ module.exports = {
       "accent" : "#8c9eff",
       "neutral" : "rgb(7 89 133)",
       "sky" : "rgb(186 230 253)",
-      "white" : "rgb(255 255 255)"
+      "white" : "rgb(255 255 255)", 
+      "black" : "rgb(0 0 0)", 
     },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
