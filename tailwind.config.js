@@ -14,6 +14,7 @@ module.exports = {
       "sky" : "rgb(186 230 253)",
       "white" : "rgb(255 255 255)", 
       "black" : "rgb(0 0 0)", 
+      "gray" : "rgb(128 128 128)"
     },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
