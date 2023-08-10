@@ -1,5 +1,5 @@
 # Rent Review
-- A community for potential tenents to view reviews on a property from a previous tenent
+- A community for potential tenents to create and search reviews on a property.
 
 ## Tech Stack
 - NextJS
@@ -9,14 +9,11 @@
 
 ## Contributors Instructions 
 
-First, run the development server:
-
 ```bash
+git clone git@github.com:CaolanCode/Rent-Review.git
+cd Rent-Review/
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
