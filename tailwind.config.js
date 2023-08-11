@@ -1,3 +1,5 @@
+import colors from "tailwindcss/colors"
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -11,10 +13,13 @@ module.exports = {
       "secondary" : "#0e7490",
       "accent" : "#8c9eff",
       "neutral" : "rgb(7 89 133)",
-      "sky" : "rgb(186 230 253)",
-      "white" : "rgb(255 255 255)", 
-      "black" : "rgb(0 0 0)", 
-      "gray" : "rgb(128 128 128)"
+      "sky" : colors.sky,
+      "white" : colors.white, 
+      "black" : colors.black, 
+      "gray" : colors.gray,
+      "blue": colors.blue,
+      "blue": colors.blue,
+      "red": colors.red,
     },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
