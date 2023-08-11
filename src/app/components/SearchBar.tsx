@@ -4,10 +4,10 @@ import { FaSearchLocation } from "react-icons/fa"
 
 export default function SearchBar() {
   return (
-    <div className="pl-10 pr-2 py-3 border-accent border-2 rounded-3xl text-center bg-white">
+    <div className="border-accent border-2 rounded-3xl text-center bg-white w-52 py-2">
       <input 
         type="text" 
-        className="focus:outline-none"
+        className="focus:outline-none w-32"
         placeholder="Zip-Code"
       />
       <button 

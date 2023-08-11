@@ -1,13 +1,13 @@
-import Link from "next/link"
-import HeaderButtons from "./HeaderButtons"
+import SearchBar from "./SearchBar";
 
 export default function Header() {
   return (
-    <header className="h-[10vh] px-5 border-b-2 border-b-accent flex justify-between items-center">
-      <h1 className="text-xl font-bold text-primary cursor-pointer hover:text-sky">
-        <Link href="/">Rent Review</Link>
-      </h1>
-      <HeaderButtons />
-    </header>
+    <div className="h-64 mt-4 m-auto flex flex-col justify-center items-center gap-1">
+      <div className="text-center text-white">
+        <h2 className="text-4xl font-bold">Welcome to <span className="text-primary">Rent Review</span>.</h2>
+        <p className="text-lg">A community for tenents to share experiences with rentals.</p>
+      </div>
+      <SearchBar />
+    </div>
   )
 }
