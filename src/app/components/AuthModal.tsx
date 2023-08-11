@@ -30,7 +30,7 @@ export default function AuthModal({isSignIn}: {isSignIn: boolean}) {
     <div>
       <button 
         onClick={handleOpen}
-        className="text-lg border py-1 px-2 rounded-md  cursor-pointer hover:bg-neutral text-primary border-accent">
+        className="text-lg border py-1 px-2 rounded-md  cursor-pointer hover:bg-neutral text-white bg-primary">
           {renderContent("Sign in", "Sign up")}
       </button>
       <Modal

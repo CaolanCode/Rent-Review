@@ -1,7 +1,5 @@
 "use client"
 
-import FormButtons from "@/app/components/FormButtons"
-
 export default function ReviewForm() {
   const inputClass = "rounded-lg focus:outline-none px-4 py-1 w-full"
   return (
@@ -37,7 +35,6 @@ export default function ReviewForm() {
         placeholder="Leave review" 
         className={inputClass}
       />
-      <FormButtons name="Create" />
     </form>
   )
 }

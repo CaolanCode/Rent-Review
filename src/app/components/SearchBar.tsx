@@ -4,14 +4,14 @@ import { FaSearchLocation } from "react-icons/fa"
 
 export default function SearchBar() {
   return (
-    <div className="border-accent border-2 rounded-3xl text-center bg-white w-52 py-2">
+    <div className="py-3 flex justify-center">
       <input 
         type="text" 
-        className="focus:outline-none w-32"
-        placeholder="Zip-Code"
+        className="focus:outline-none rounded text-lg mr-3 p-2 w-[250px]"
+        placeholder="zip-code, city or street"
       />
       <button 
-        className="hover:scale-125 cursor-pointer active:scale-100 text-gray ">
+        className="bg-red-600 cursor-pointer rounded px-9 py-2 text-white active:scale-90">
         <FaSearchLocation />
       </button>
     </div>

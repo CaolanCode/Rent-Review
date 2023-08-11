@@ -3,8 +3,8 @@ import AuthModal from "./AuthModal"
 
 export default function Header() {
   return (
-    <header className="h-[10vh] px-5 border-b-2 border-b-accent flex justify-between items-center">
-      <h1 className="text-xl font-bold text-primary cursor-pointer hover:text-sky">
+    <header className="h-[7vh] px-5  flex justify-between items-center">
+      <h1 className="text-xl font-bold text-[#0f1f47] cursor-pointer">
         <Link href="/">Rent Review</Link>
       </h1>
       <div className="flex gap-5">
